@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGDI", "SharpGDI\SharpGDI.csproj", "{F39EAD1F-3837-4D94-98EB-89CC61F9EC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{6839E947-382A-447B-9932-0E799E2580F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39EAD1F-3837-4D94-98EB-89CC61F9EC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39EAD1F-3837-4D94-98EB-89CC61F9EC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39EAD1F-3837-4D94-98EB-89CC61F9EC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39EAD1F-3837-4D94-98EB-89CC61F9EC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6839E947-382A-447B-9932-0E799E2580F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6839E947-382A-447B-9932-0E799E2580F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6839E947-382A-447B-9932-0E799E2580F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6839E947-382A-447B-9932-0E799E2580F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

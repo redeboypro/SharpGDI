@@ -1,0 +1,12 @@
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\bin\Debug\net7.0\SharpGDI.deps.json
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\bin\Debug\net7.0\SharpGDI.dll
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\bin\Debug\net7.0\SharpGDI.pdb
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.csproj.AssemblyReference.cache
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.AssemblyInfoInputs.cache
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.AssemblyInfo.cs
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.csproj.CoreCompileInputs.cache
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.dll
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\refint\SharpGDI.dll
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\SharpGDI.pdb
+C:\Users\redeb\RiderProjects\SharpGDI\SharpGDI\obj\Debug\net7.0\ref\SharpGDI.dll
