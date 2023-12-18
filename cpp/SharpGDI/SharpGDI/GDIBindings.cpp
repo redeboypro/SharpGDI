@@ -127,10 +127,40 @@ GDIBinding void PrintText(
     DrawText(BackDeviceContext, text, -1, &bounds, DT_CENTER | DT_VCENTER | DT_SINGLELINE | DT_NOCLIP);
 }
 
-GDIBinding void ClearColor(COLORREF color) {
+GDIBinding void DrawRectangle(
+    INT left, INT top, INT right, INT bottom,
+    COLORREF color) {
     HBRUSH hBrush = CreateSolidBrush(color);
     SelectObject(BackDeviceContext, hBrush);
-    Rectangle(BackDeviceContext, DisplayRect.left, DisplayRect.top, DisplayRect.right, DisplayRect.bottom);
+    Rectangle(BackDeviceContext, left, top, right, bottom);
+    DeleteObject(hBrush);
+}
+
+GDIBinding void DrawEllipse(
+    INT left, INT top, INT right, INT bottom,
+    COLORREF color) {
+    HBRUSH hBrush = CreateSolidBrush(color);
+    SelectObject(BackDeviceContext, hBrush);
+    Ellipse(BackDeviceContext, left, top, right, bottom);
+    DeleteObject(hBrush);
+}
+
+GDIBinding void DrawPolygon(
+    INT* inVertices,
+    INT vertexCount,
+    COLORREF color)
+{
+    HBRUSH hBrush = CreateSolidBrush(color);
+    SelectObject(BackDeviceContext, hBrush);
+
+    std::vector<POINT> vertices;
+
+    for (int i = 0; i < vertexCount; i += 2) {
+        vertices.push_back({ inVertices[i], inVertices[i + 1] });
+    }
+
+    Polygon(BackDeviceContext, vertices.data(), vertices.size());
+
     DeleteObject(hBrush);
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aFxQ1pXvmQiVwoZqArLz1AYhx9gGWv6gCFWqQ8o98uRKQQUG7lAu+bYSIOZ+juIQuyfYegz6LrL4bbv9FEAyOg==",
+  "dgSpecHash": "mIl1utiXAvGlpuUA6JnYcJSeH+nWAII3okzhnVABn1HmypMFgaTS/SiQvQ/9RW55LmAnKZ3JDkL7MPzlzXlCSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\Demo\\Demo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

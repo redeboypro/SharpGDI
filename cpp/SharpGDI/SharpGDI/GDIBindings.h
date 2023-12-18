@@ -79,7 +79,18 @@ extern "C"
 
     GDIBinding void SetIdentity();
 
-    GDIBinding void ClearColor(COLORREF color);
+    GDIBinding void DrawRectangle(
+        INT left, INT top, INT right, INT bottom,
+        COLORREF color);
+
+    GDIBinding void DrawEllipse(
+        INT left, INT top, INT right, INT bottom,
+        COLORREF color);
+
+    GDIBinding void DrawPolygon(
+        INT* inVertices,
+        INT vertexCount,
+        COLORREF color);
 }
 
 

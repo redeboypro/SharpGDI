@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\redeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\redeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\SharpGDI\\SharpGDI.csproj": {
-              "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\SharpGDI\\SharpGDI.csproj"
+            "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\SharpGDI\\SharpGDI.csproj": {
+              "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\SharpGDI\\SharpGDI.csproj"
             }
           }
         }

@@ -61,8 +61,14 @@ public static class GDI
         Int32 rgb);
     
     [DllImport(ExternalDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern void ClearColor(Int32 rgb);
+    public static extern void DrawRectangle(Int32 left, Int32 top, Int32 right, Int32 bottom, Int32 rgb);
 
+    [DllImport(ExternalDll, CallingConvention = CallingConvention.Cdecl)]
+    public static extern void DrawEllipse(Int32 left, Int32 top, Int32 right, Int32 bottom, Int32 rgb);
+    
+    [DllImport(ExternalDll, CallingConvention = CallingConvention.Cdecl)]
+    public static extern void DrawPolygon(Int32[] vertices, Int32 vertexCount, Int32 rgb);
+    
     public static void DrawLine(Int32 x1, Int32 y1, Int32 x2, Int32 y2, Int32 rgb)
     {
         var deltaX = Math.Abs(x2 - x1);

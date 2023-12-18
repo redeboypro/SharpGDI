@@ -1,7 +1,1 @@
-﻿  GDIBindings.cpp
-C:\VC++\SharpGDI\SharpGDI\GDIBindings.cpp(54,22): warning C4267: =: преобразование из "size_t" в "INT"; возможна потеря данных
-C:\VC++\SharpGDI\SharpGDI\GDIBindings.cpp(110,53): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\VC++\SharpGDI\SharpGDI\GDIBindings.cpp(110,38): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-  LINK : не найден или не выполнена сборка C:\VC++\SharpGDI\x64\Debug\SharpGDI.dll при последней инкрементной компоновке; выполняется полная компоновка
-     Создается библиотека C:\VC++\SharpGDI\x64\Debug\SharpGDI.lib и объект C:\VC++\SharpGDI\x64\Debug\SharpGDI.exp
-  SharpGDI.vcxproj -> C:\VC++\SharpGDI\x64\Debug\SharpGDI.dll
+﻿  SharpGDI.vcxproj -> C:\Users\redeb\RiderProjects\SharpGDI\cpp\SharpGDI\x64\Debug\SharpGDI.dll

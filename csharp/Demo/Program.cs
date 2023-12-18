@@ -8,7 +8,7 @@ while (!Input.IsKeyDown(Input.Space))
 {
     time.Begin();
     GDI.Begin();
-    GDI.ClearColor(GDI.FromRgb(255, 255, 255));
+    GDI.DrawRectangle(0,0, 100, 200, GDI.FromRgb(255, 255, 255));
     
     GDI.PrintText(time.GetFramesPerSecond().ToString(), 10, 100, 100, 10, GDI.FromRgb(255, 0, 0));
 

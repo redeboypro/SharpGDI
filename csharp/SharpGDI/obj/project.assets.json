@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\SharpGDI\\SharpGDI.csproj",
+      "projectUniqueName": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\SharpGDI\\SharpGDI.csproj",
       "projectName": "SharpGDI",
-      "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\SharpGDI\\SharpGDI.csproj",
+      "projectPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\SharpGDI\\SharpGDI.csproj",
       "packagesPath": "C:\\Users\\redeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\SharpGDI\\obj\\",
+      "outputPath": "C:\\Users\\redeb\\RiderProjects\\SharpGDI\\csharp\\SharpGDI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\redeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
